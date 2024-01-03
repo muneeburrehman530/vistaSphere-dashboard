@@ -1,0 +1,149 @@
+html,
+body {
+  font-size: 10px;
+  font-family: "Roboto";
+  padding: 0;
+  margin: 0;
+  background-color: var(--body-bg);
+}
+
+:root {
+  --primary: #5f00d9;
+  --secondary: #171717;
+  --light-dark: #535d66;
+  --body-bg: #f3f3f7;
+  --light-green: #059669;
+  --dark-gray: #797e82;
+}
+
+.sidebar-text {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.sidebar-links {
+  text-decoration: none;
+  color: #e0edff;
+}
+
+.sidebar-text:hover {
+  background-color: #5e5e5e;
+}
+.portfolio-titles {
+  font-size: 1.4rem !important;
+  font-style: normal;
+  font-weight: 500 !important;
+  line-height: 1.8rem;
+  color: var(--light-dark);
+  padding-bottom: 1.2rem;
+}
+.portfolio-values {
+  font-size: 2.4rem !important;
+  font-style: normal;
+  font-weight: 600 !important;
+  line-height: 2.8rem;
+}
+.purple-btn {
+  /* width: 10.7rem; */
+  height: 3.8rem;
+  display: flex !important;
+  padding: 1rem 1.6rem !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 0.8rem;
+  border-radius: 1rem !important;
+  background-color: var(--primary) !important;
+  color: white !important;
+}
+
+.current-price-span {
+  color: var(--light-green);
+  font-family: Ubuntu;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.active {
+  background-color: white !important;
+  color: black !important;
+  box-shadow: 0px 4px 4px 0px rgba(23, 23, 23, 0.04);
+  padding: 0.4rem 0.6rem 0.3rem 0.6rem;
+}
+
+.transaction-title {
+  color: var(--secondary) !important;
+  font-size: 1.6rem !important;
+
+  font-weight: 400 !important;
+  line-height: 2rem;
+}
+
+.amount {
+  color: var(--secondary) !important;
+  font-size: 1.6rem !important;
+  font-weight: 500 !important;
+  line-height: 2rem;
+}
+
+.view-all-button {
+  margin-right: 0 !important;
+  height: 5rem;
+  width: 100% !important;
+  margin: auto;
+  background-color: #eeeef4 !important;
+  color: var(--secondary) !important;
+  font-size: 1.4rem;
+  transition: all 0.3s ease-in-out;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+.view-all-button:hover {
+  background-color: #d6d6d6 !important;
+}
+.loan-paragraph {
+  font-size: 1.8rem !important;
+  font-weight: 500 !important;
+  line-height: 2.2rem;
+}
+
+.button-contact {
+  width: 7rem !important;
+  background-color: white !important;
+  border-radius: 2rem !important;
+  color: var(--primary) !important;
+  font-size: 1.2rem !important;
+  font-weight: 500;
+  line-height: 1.4rem;
+}
+.button-contact:hover {
+  box-shadow: 1px 0px 14px 2px white;
+}
+
+.contact-btn-send {
+  padding: 1.2rem 0 !important;
+  width: 100% !important;
+  font-size: 1.2rem !important;
+  background-color: #535d66 !important;
+}
+
+.contact-btn-meeting {
+  padding: 1.2rem 0 !important;
+  font-size: 1.2rem !important;
+  width: 100% !important;
+  background-color: #141414 !important;
+}
+.contact-us {
+  color: var(--secondary) !important;
+  font-size: 3.2rem !important;
+  font-weight: 500 !important;
+  line-height: 3.6rem;
+}
+.contact-para {
+  padding-top: 1rem !important;
+  color: var(--light-dark) !important;
+  font-size: 1.4rem !important;
+  font-weight: 400 !important;
+  line-height: 1.8rem;
+}
