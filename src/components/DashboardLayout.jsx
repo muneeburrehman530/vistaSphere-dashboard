@@ -1,6 +1,6 @@
 import { Box, Container } from "@mui/material";
-import Sidebar from "../components/Sidebar";
-import Topnav from "../components/Topnav";
+import Sidebar from "./Sidebar";
+import Topnav from "./Topnav";
 import SideDrawer from "./SideDrawer";
 
 const DashboardLayout = ({ title, children }) => {
